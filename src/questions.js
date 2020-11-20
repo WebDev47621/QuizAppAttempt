@@ -4,19 +4,19 @@ const questions = [
         answers: [
             {
                 text: 'Answer 1',
-                correct: true;
+                correct: true
             },
             {
                 text: 'Answer 2',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 3',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 4',
-                correct: false;
+                correct: false
             }
         ]
     },
@@ -26,19 +26,19 @@ const questions = [
         answers: [
             {
                 text: 'Answer 1',
-                correct: true;
+                correct: true
             },
             {
                 text: 'Answer 2',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 3',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 4',
-                correct: false;
+                correct: false
             }
         ]
     },
@@ -48,19 +48,19 @@ const questions = [
         answers: [
             {
                 text: 'Answer 1',
-                correct: true;
+                correct: true
             },
             {
                 text: 'Answer 2',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 3',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 4',
-                correct: false;
+                correct: false
             }
         ]
     },
@@ -70,20 +70,22 @@ const questions = [
         answers: [
             {
                 text: 'Answer 1',
-                correct: true;
+                correct: true
             },
             {
                 text: 'Answer 2',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 3',
-                correct: false;
+                correct: false
             },
             {
                 text: 'Answer 4',
-                correct: false;
+                correct: false
             }
         ]
     }
 ];
+
+export default questions;

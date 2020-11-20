@@ -18,9 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      return (
-        <Display question={questions[index]} rightAnswer={rightAnswer} nextStep={nextStep} />
-      );
+      <Display question={questions[index]} rightAnswer={rightAnswer} nextStep={nextStep} />
     </div>
   );
 }

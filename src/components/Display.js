@@ -1,7 +1,7 @@
 import React from 'react';
 import AnswerList from './AnswerList';
 
-function Display({question, rightAnswer, nexStep}) {
+function Display({question, rightAnswer, nextStep}) {
     return (
         <div className="display-box">
             <h3>{question.text}</h3>
