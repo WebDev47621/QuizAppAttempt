@@ -1,5 +1,16 @@
 .App {
+  background: linear-gradient(to right, #7f8c8d, #95a5a6);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.display-box {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
 }

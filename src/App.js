@@ -7,7 +7,8 @@ function App() {
   const [index, setIndex] = useState(0);
   const [rightAnswer, setRightAnswer] = useState(true);
 
-  const nextStep = (answer) => {
+  const nextStep = (e, answer) => {
+    e.preventDefault();
     if (answer.correct) {
       setRightAnswer(true);
       setIndex(index => index + 1);
