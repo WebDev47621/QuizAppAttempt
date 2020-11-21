@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+//Importing components here
 import Display from './components/Display'
 import questions from './questions';
 
