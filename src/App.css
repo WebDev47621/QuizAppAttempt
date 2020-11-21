@@ -14,3 +14,7 @@
   width: 400px;
   height: 300px;
 }
+
+.answer-list {
+  text-decoration: none;
+}
